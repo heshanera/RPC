@@ -1,2 +1,2 @@
 # RPC
-Remote Procedure Call in C generated using rpcgen
+Remote Procedure Call in <b>C</b> generated using <b>rpcgen</b>
