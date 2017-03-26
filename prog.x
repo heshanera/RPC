@@ -1,7 +1,7 @@
 #define VERSION_NUMBER 1
 
 struct operands {
-	char* line;
+	string line<100>;
 	char c;
 };
 
