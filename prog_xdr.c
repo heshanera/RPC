@@ -10,7 +10,7 @@ xdr_operands (XDR *xdrs, operands *objp)
 {
 	register int32_t *buf;
 
-	 if (!xdr_pointer (xdrs, (char **)&objp->line, sizeof (char), (xdrproc_t) xdr_char))
+	 if (!xdr_string (xdrs, &objp->line, 100))
 		 return FALSE;
 	 if (!xdr_char (xdrs, &objp->c))
 		 return FALSE;
